@@ -141,7 +141,7 @@ print("Total time elapsed:",t3-t0)
 print("The matrix U is:", V)
 
 m=int((2/5)*n -1)
-print("The value at xx=11 is:",U10[m])
+print("The value at xx=40 is:",U10[m])
 l=np.abs(U10[m]-6.04590214)
 print("The absolute error is:",l )
 error=np.log(l)
